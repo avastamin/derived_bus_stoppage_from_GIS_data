@@ -1,5 +1,5 @@
 # IDEs and Editors
-.idea
+.idea/*
 .DS_Store
 
 #virtualenv
