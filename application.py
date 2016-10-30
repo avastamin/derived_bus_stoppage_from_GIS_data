@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 # Open activity_points.geojson and get activity points
 PORJECT_DIR = os.getcwd()
-activity_points_file = "static/assests/data/activity_points.geojson"
+activity_points_file = "static/assets/data/activity_points.geojson"
 abs_activity_points_file = os.path.join(PORJECT_DIR, activity_points_file)
 with open(abs_activity_points_file) as activity_points:
     activity_points = json.load(activity_points)
 
 # Open routes GEOjson file and read data from it
-routes_file = "static/assests/data/routes.geojson"
+routes_file = "static/assets/data/routes.geojson"
 abs_routes_file = os.path.join(PORJECT_DIR, routes_file)
 with open(abs_routes_file) as routes_data:
     routes = json.load(routes_data)

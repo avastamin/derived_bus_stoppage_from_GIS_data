@@ -64,7 +64,7 @@ function addBusStoppage(map){
         var location = {lat: bus_stoppages[i].geometry.coordinates[1], lng: bus_stoppages[i].geometry.coordinates[0]};
         var bus_marker = new google.maps.Marker({
           position: location,
-          icon: 'static/assests/img/bus.png',
+          icon: 'static/assets/img/bus.png',
           map: map
         });
 
@@ -94,7 +94,7 @@ function toggleRoutes(elementId){
 
     // read Geojson data and to render on google map
     var routes_layer = map.data;
-    routes_layer.loadGeoJson('static/assests/data/routes.geojson');
+    routes_layer.loadGeoJson('static/assets/data/routes.geojson');
 
     // Following if else is for toggle functionality
     if (checkbox.checked){
