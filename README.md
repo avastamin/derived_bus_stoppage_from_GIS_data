@@ -30,12 +30,12 @@ user can control their visualisation.
 
 ### How to use this application:
 I used virtualenv to manage all dependencies.
-    1. clone or download the files
-    2. Go to the directory and intall Virtual environment `virtualenv --no-site-packages --distribute .env`
-    3. run Virtual Environment `source .env/bin/activate`
-    4. To install all dependency `pip install -r requirements.txt`
-    5. Run the application `python application.py`
-    6. Open your browser and see on `http://localhost:5000/`
+1. clone or download the files
+2. Go to the directory and intall Virtual environment `virtualenv --no-site-packages --distribute .env`
+3. run Virtual Environment `source .env/bin/activate`
+4. To install all dependency `pip install -r requirements.txt`
+5. Run the application `python application.py`
+6. Open your browser and see on `http://localhost:5000/`
 
   ![Map View](static/assets/img/map_view.png?raw=true "Map View")
 
