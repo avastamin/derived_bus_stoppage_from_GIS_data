@@ -25,7 +25,8 @@ To visualize routes geojson I just used
 
 I am taking bus stations data from python script. Then I used that data on my template and visualize on Map. I did not visualize
 routes on Map by default. Instead of this, I added some control for bus stations and routes just on Map legend where
-user can control their visualisation. ![Control pannel](static/assets/img/map_control.png?raw=true "Control Panel")
+user can control their visualisation.
+ ![Control pannel](static/assets/img/map_control.png?raw=true "Control Panel")
 
 ### How to use this application:
 I used virtualenv to manage all dependencies.
@@ -36,6 +37,6 @@ I used virtualenv to manage all dependencies.
     5. Run the application `python application.py`
     6. Open your browser and see on `http://localhost:5000/`
 
-![Map View](static/assets/img/map_view?raw=true "Map View")
+  ![Map View](static/assets/img/map_view.png?raw=true "Map View")
 
 [1]: https://github.com/avastamin/derived_bus_stoppage_from_GIS_data/blob/master/static/assets/data/activity_points.geojson "activity_points.geojson"
