@@ -39,6 +39,7 @@ user can control their visualisation.
   ![Map View](static/assets/img/map_view.png?raw=true "Map View")
 
 ### To Run unit Test:
+I used nose which extends unittest to make testing easier. To test just type:
  `nosetests`
 
 [1]: https://github.com/avastamin/derived_bus_stoppage_from_GIS_data/blob/master/static/assets/data/activity_points.geojson "activity_points.geojson"
